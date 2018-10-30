@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-    <link href="/static/stylesheet.css" type="text/css" rel="stylesheet">
+    <link href="static/stylesheet.css" type="text/css" rel="stylesheet">
     <meta charset="UTF-8">
     <title>drill</title>
 </head>
@@ -15,7 +15,7 @@
         {{ message }}
       </div>
       {% endfor %}
-      <form class="form" action="/materials/test_{{ cat }}" method="post" autocomplete="off">
+      <form class="form" action="materials/test_{{ cat }}" method="post" autocomplete="off">
         <div class="form-group">
           <span class="col-lg-2">{{ question_number }}. {{ question }}</span>
           <div class="col-lg-2">
